@@ -9,6 +9,7 @@
   max-width: 130rem;
   margin: 0 auto;
   padding: 0 119px;
+  border: 5px solid black;
 }
 .ppp {
   display: flex;
