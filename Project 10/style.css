@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #111827;
+  color: white;
+}
+nav {
+  margin: 20px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-end;
+  list-style: none;
+}
+li {
+  font-size: 20px;
+}
+.home {
+  padding: 5px 10px;
+  background: rgb(100, 100, 224);
+  border-radius: 15px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.line1 {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  gap: 10px;
+  flex-direction: row;
+  /* flex-direction: column; */
+}
+.line2 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.line2 h1 {
+  font-size: 60px;
+}
+.line2 h2 {
+  font-size: 35px;
+  color: rgb(197, 197, 89);
+}
+.header_img {
+  width: 30vw;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  width: 20vw;
+}
+.project {
+  grid-template-columns: max-content;
+}
+.project_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.info h1 {
+  font-size: 40px;
+}
+.horizontal-divider {
+  height: 10px;
+  width: 135px;
+  background-color: blue;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.contact {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact h1 {
+  font-size: 40px;
+}
+.contact .horizontal-divider {
+  width: 200px;
+}
+.logo img {
+  width: 30px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    .project_list {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+      }
+      nav{
+        display: none;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .header_img {
+        width: 51vw;
+      }
+      img {
+        width: 55vw;
+      }
+}
