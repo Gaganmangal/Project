@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #0f0f10;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+body {
+  margin: 0px 15vw;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  padding-block: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+}
+.list {
+  display: flex;
+  list-style: none;
+}
+a{
+    font-size: 14px;
+}
+.shop{
+    padding: 10px 40px;
+    background-color: blueviolet;
+}
