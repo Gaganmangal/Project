@@ -12,7 +12,7 @@ p {
 }
 @media screen and (max-width: 1440px) {
   body {
-        background-color: brown;
+    background-color: forestgreen;
   }
   .laptop_large {
     display: block;
@@ -20,7 +20,7 @@ p {
 }
 @media screen and (max-width: 1024px) {
   body {
-        background-color: chartreuse;
+    background-color: darkgoldenrod;
   }
   .laptop_large {
     display: none;
@@ -31,7 +31,7 @@ p {
 }
 @media screen and (max-width: 768px) {
   body {
-        background-color: darkorange;
+    background-color: aqua;
   }
   .laptop_large {
     display: none;
@@ -45,7 +45,7 @@ p {
 }
 @media screen and (max-width: 425px) {
   body {
-        background-color: darkolivegreen;
+    background-color: crimson;
   }
   .laptop_large {
     display: none;
