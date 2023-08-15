@@ -9,7 +9,7 @@
 body {
   margin: 0 15vw;
 }
-a {
+.p {
   text-decoration: none;
   font-weight: 700;
   font-size: 14px;
@@ -17,6 +17,7 @@ a {
 li {
   list-style: none;
 }
+/* nav */
 nav {
   display: flex;
   align-items: center;
@@ -46,7 +47,7 @@ nav img {
   font-size: 14px;
   padding: 10px 40px;
 }
-
+/* main */
 .main {
   display: flex;
   margin-top: 30px;
@@ -105,7 +106,7 @@ nav img {
 .button-shoppingBag span {
   background: transparent;
 }
-
+/* social-icon */
 .social-icon {
   display: flex;
   align-items: center;
@@ -119,7 +120,7 @@ nav img {
 .social-icon img {
   scale: 0.8;
 }
-
+/* specs */
 .specs {
   display: flex;
   align-items: center;
@@ -164,6 +165,7 @@ nav img {
 .specs-list-item div img {
   scale: 0.8;
 }
+/* case */
 .case {
   display: flex;
   align-items: center;
@@ -205,7 +207,7 @@ nav img {
 .group {
   scale: 0.8;
 }
-
+/* card */
 .card {
   display: flex;
   align-items: center;
@@ -253,10 +255,9 @@ nav img {
   font-size: 12px;
   color: #ffffff;
 }
+/* product */
 .product {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   margin: 0px 150px;
 }
@@ -267,21 +268,116 @@ nav img {
   width: 75px;
   height: 100px;
   background-color: transparent;
-  position: relative;
-  left: 30px;
+  position: absolute;
+  left: 28px;
   top: -40px;
 }
 .product-list {
   position: relative;
   width: 130px;
   height: 130px;
-  background: #181a1b;
+  background-color: #181a1b;
   border-radius: 8px;
 }
 .product-list-item {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #181a1b;
+  align-items: flex-end;
+  justify-content: space-between;
   padding: 10px 15px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: transparent;
+}
+.product-list-item p {
+  font-size: 12px;
+}
+.product-list-item div {
+  background-color: #0a0a0b;
+  padding: 2px 6px;
+  border-radius: 8px;
+}
+.product-list-item p span {
+  color: #bdc0c2;
+  background-color: transparent;
+}
+.product-list-item div img {
+  width: 13px;
+  height: 13px;
+}
+
+.product-list-item p {
+  background-color: transparent;
+}
+
+.product-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  gap: 50px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-block: 100px;
+  position: relative;
+}
+.sub {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Subscribe {
+  display: flex;
+  padding: 5px 10px;
+  background: #181a1b;
+  border-radius: 8px;
+}
+.Subscribe-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  background: #0a0a0b;
+}
+
+input {
+  background-color: #181a1b;
+  border: none;
+}
+
+.upArrow {
+  position: absolute;
+  right: -160px;
+  scale: 0.8;
+}
+.sub-list li:first-child {
+  margin-bottom: 10px;
+}
+.sub-list li:first-child a {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.footer-logo {
+  scale: 0.8;
+}
+
+.sub-list li a {
+  font-size: 12px;
+  color: #BDC0C2;
+  text-decoration: none;
+}
+.Subscribe-button p {
+  font-size: 12px;
+}
+.rightArrow {
+  scale: 0.8;
+  margin-right: 10px;
+}
+.soci-icon img {
+  scale: 0.8;
+  margin-right: 10px;
 }
