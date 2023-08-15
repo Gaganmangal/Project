@@ -6,6 +6,9 @@
   font-family: "Poppins", sans-serif;
   color: #ffffff;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0 15vw;
 }
@@ -352,6 +355,7 @@ input {
   position: absolute;
   right: -160px;
   scale: 0.8;
+  cursor: pointer;
 }
 .sub-list li:first-child {
   margin-bottom: 10px;
@@ -367,7 +371,7 @@ input {
 
 .sub-list li a {
   font-size: 12px;
-  color: #BDC0C2;
+  color: #bdc0c2;
   text-decoration: none;
 }
 .Subscribe-button p {
@@ -380,4 +384,5 @@ input {
 .soci-icon img {
   scale: 0.8;
   margin-right: 10px;
+  cursor: pointer;
 }
