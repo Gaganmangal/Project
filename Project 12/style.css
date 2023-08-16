@@ -4,8 +4,11 @@
   box-sizing: border-box;
   font-family: "Manrope";
 }
+body {
+  background-color: #f6f8fa;
+}
 .nav-header {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./Photos/mainBackground.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,8 +24,8 @@ a {
   margin-right: 50px;
   color: white;
 }
-hr{
-    margin: 0px 100px;
+hr {
+  margin: 0px 100px;
 }
 .nav-logo {
   width: 120px;
@@ -37,35 +40,81 @@ nav {
 ul {
   display: flex;
 }
-.nav-header h1{
-    font-size: 72px;
-    margin-bottom: 30px;
-    color: white;
+.nav-header h1 {
+  font-size: 72px;
+  margin-bottom: 30px;
+  color: white;
 }
-.nav-header p{
-    font-size: 18px;
-    margin-bottom: 30px;
-    color: white;
-    width: 52%;
-    font-weight: 500;
+.nav-header p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: white;
+  width: 52%;
+  font-weight: 500;
 }
-.nav-header button{
-    font-size: 18px;
-    padding: 10px 30px;
-    border-radius: 24px;
-    border: none;
-    background: #6663E9;
-    color: white;
-    font-weight: 1000;
+.nav-header button {
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 24px;
+  border: none;
+  background: #6663e9;
+  color: white;
+  font-weight: 1000;
 }
-.nav-header div{
-    margin-top: 85px;
-    margin-left: 150px;
-    width: 50%;
+.nav-header div {
+  margin-top: 85px;
+  margin-left: 150px;
+  width: 50%;
 }
 
-.logoName-img{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.logoName-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  position: relative;
+  bottom: 100px;
+  margin-right: 35px;
+  margin-left: 35px;
+  border-radius: 30px;
+  height: 190px;
+}
+.logoName-img img {
+  width: 156px;
+  height: 38px;
+}
+.Ooo{
+  font-size: 60px;
+  color: #000000;
+  text-align: center;
+  /* width: 50%; */
+}
+.card-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 30%;
+}
+.card img{
+  width: 366px;
+  height: 400px;
+  border-radius: 30px;
+}
+.card-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  position: relative;
+  bottom: 100px;
+  border-radius: 30px;
+  padding: 15px 20px;
+  margin-top: 50px;
 }
