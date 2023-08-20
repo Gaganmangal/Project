@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+  max-width: 1440px;
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.Home {
+  font-weight: 700;
+}
+nav {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+nav img {
+  width: 150px;
+  height: 48px;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5%;
+  height: 85vh;
+}
+.hospital-discrpsion {
+  text-align: center;
+}
+.hospital-discrpsion h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #20bc7e;
+}
+.hospital-discrpsion p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+.card-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 50px;
+}
+.card {
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  font-size: 25px;
+  font-weight: 700;
+  color: #20bc7e;
+}
+.card p {
+  font-size: 20px;
+  font-weight: 500;
+}

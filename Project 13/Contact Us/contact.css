@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+  max-width: 1440px;
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.Home {
+  font-weight: 700;
+}
+nav {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+nav img {
+  width: 150px;
+  height: 48px;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
