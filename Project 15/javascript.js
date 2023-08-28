@@ -362,11 +362,10 @@
 
 // function sumofAllParameters() {
 //   let sum = 0;
-//   for (var i = 0; i < arguments.length; i++) 
+//   for (var i = 0; i < arguments.length; i++)
 //   console.log(arguments[i]);
 //   sum += arguments[i];
 //   return sum;
 // }
 // let result = sumofAllParameters(1, 2, 3, 2, 5, 6);
 // console.log(result);
-
