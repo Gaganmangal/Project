@@ -59,8 +59,8 @@
 
 // // /*******************************************ARRAY*****************************************************/
 
-// // // const myArray = [1, 2, 3, 4, 5, 6]
-// // // const myArray_1 = ['Gagan','Rohit','Mohit']
+// const myArray = [1, 2, 3, 4, 5, 6]
+// const myArray_1 = ['Gagan','Rohit','Mohit']
 // // // console.log(myArray_1);
 // // // console.log(myArray_1.indexOf("Gagan"));
 // // // myArray_1.push("Deven")
@@ -74,23 +74,24 @@
 
 // // /********Slice******************Splice***********************/ 
 
-// // // const myArray_2 = myArray.slice(1,3)
-// // // console.log(`myArray ${myArray}`);
-// // // console.log(`myArray_2 ${myArray_2}`);
-// // // const myArray_3 = myArray.splice(1,3)
-// // // console.log(`myArray ${myArray}`);
-// // // console.log(`myArray ${myArray_3}`);
+// const myArray_2 = myArray.slice(1,3)
+// console.log(`myArray = ${myArray}`);
+// console.log(`myArray_2 = ${myArray_2}`);
+// const myArray_3 = myArray.splice(1,3)
+// console.log(`myArray = ${myArray}`);
+// console.log(`myArray = ${myArray_3}`);
 
 // const marvel_heros = ["thor", "Ironman", "Spiderman"]
 // const dc_heros = ["superman", "flash", "batman"]
 
 // // const All_heros = marvel_heros.push(dc_heros)
-// const all_heros = marvel_heros.concat(dc_heros)
+// // const all_heros = marvel_heros.concat(dc_heros)
 
-// console.log(all_heros);
+// // console.log(All_heros);
+// // console.log(all_heros);
 
-// // const All_new_Heros = [...marvel_heros, ...dc_heros]
-// // console.log(All_new_Heros);
+// const All_new_Heros = [...marvel_heros, ...dc_heros]
+// console.log(All_new_Heros);
 
 // // // const Array_1 = [1, 2,[3, 4,[5, 6]]]
 // // // const All_Array = Array_1.flat(Infinity)
