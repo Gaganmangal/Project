@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,16 +11,30 @@
     </ul>
   </body>
   <script>
-    function addlang(langName) {
-      const li = document.createElement("li");
-      li.innerHTML = `${langName}`;
-      document.querySelector(".lan").appendChild(li);
-    }
     // function addlang(langName) {
     //   const li = document.createElement("li");
-    //   li.append(document.createTextNode(langName))
+    //   li.innerHTML = `${langName}`;
     //   document.querySelector(".lan").appendChild(li);
     // }
+    function addlang(langName) {
+      const li = document.createElement("li");
+      li.append(document.createTextNode(langName));
+      document.querySelector(".lan").appendChild(li);
+    }
     addlang("c");
+    addlang("c++");
+    addlang("pyton");
+
+    /******EDIT*******/
+
+    const secondlang = document.querySelector("li:nth-child(2)");
+    // secondlang.innerHTML = 'mysql'
+    const newli = document.createElement("li");
+    newli.append(document.createTextNode("kk"));
+    // secondlang.replaceWith(newli)
+
+    /***********remov***********/
+    const lastli = document.querySelector("li:last-child");
+    lastli.remove();
   </script>
-</html>
+</html> -->
