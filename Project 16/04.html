@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #212121; color: white">
+    <ul class="lan">
+      <li>java</li>
+    </ul>
+  </body>
+  <script>
+    function addlang(langName) {
+      const li = document.createElement("li");
+      li.innerHTML = `${langName}`;
+      document.querySelector(".lan").appendChild(li);
+    }
+    // function addlang(langName) {
+    //   const li = document.createElement("li");
+    //   li.append(document.createTextNode(langName))
+    //   document.querySelector(".lan").appendChild(li);
+    // }
+    addlang("c");
+  </script>
+</html>
