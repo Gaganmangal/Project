@@ -1,0 +1,27 @@
+button {
+  background-color: cadetblue;
+  color: brown;
+  padding: 15px;
+  font-family: fantasy;
+  font-size: 35px;
+  border: none;
+  margin: 10px;
+  gap: 10px;
+  border-radius: 10px;
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  box-shadow: 4px 4px purple;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #3b9c9c;
+  box-shadow: -4px -4px purple;
+
+}
+h1 {
+  font-size: 40px;
+  font-family: fantasy;
+  color: brown;
+  text-shadow: 2px 2px cornsilk;
+  letter-spacing: 10px;
+}
