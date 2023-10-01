@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+body {
+  font-family: monospace;
+  letter-spacing: 5px;
+}
+.cantaner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 250px;
+}
+button {
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  background-color: blueviolet;
+  font-family: monospace;
+  letter-spacing: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+button:hover{
+    background-color: rgb(144, 54, 228);
+}
+
