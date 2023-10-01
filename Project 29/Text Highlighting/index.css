@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 25px;
+  font-family: monospace;
+  letter-spacing: 2px;
+  color: aliceblue;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: start;
+  margin-top: 50px;
+  line-height: 80px;
+}
+.hightlight{
+    background-color: yellow;
+    color: black;
+}

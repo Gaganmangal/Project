@@ -8,7 +8,7 @@ body {
   font-family: monospace;
   letter-spacing: 5px;
 }
-.cantaner {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,6 @@ button {
   border: 1px solid white;
   cursor: pointer;
 }
-button:hover{
-    background-color: rgb(144, 54, 228);
+button:hover {
+  background-color: rgb(144, 54, 228);
 }
-
