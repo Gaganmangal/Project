@@ -53,3 +53,44 @@ promisefour
   .finally(() => {
     console.log("Network Error.............");
   });
+
+const promisefive = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    let error = true;
+    if (error == true) {
+      resolve({ Name: "Rohit", Age: 88 });
+    } else {
+      reject("Error.....202-NOT-FOUND");
+    }
+  }, 1000);
+});
+
+async function name() {
+  try {
+    const resolve = await promisefive;
+    console.log(resolve);
+  } catch (error) {
+    console.log(error);
+  }
+}
+name();
+
+async function API() {
+  try {
+    const resolve = await fetch("https://api.github.com/users/Gaganmangal");
+    let data = await resolve.json();
+    console.log(data.bio);
+  } catch (error) {
+    console.log(error);
+  }
+}
+API();
+
+fetch("https://api.github.com/users/Gaganmangal")
+  .then((resolve) => {
+    return resolve.json();
+  })
+  .then((data) => {
+    console.log(data.name);
+  })
+  .catch((error) => console.log(error));
