@@ -15,6 +15,7 @@ Object.prototype.gagan = function () {
 };
 
 // console.log(myArray.gagan());
+// console.log(myArray);
 // console.log(obj.gagan());
 
 Array.prototype.mangal = function () {
@@ -42,9 +43,9 @@ const c = {
 
 // Object.setPrototypeOf(c,a)
 
-console.log(c.Gagan);
+// console.log(c.Gagan);
 
 String.prototype.truelength = function () {
   console.log(`This is ${this.trim().length}`);
 };
-"Gagan     ".truelength();
+// "Gagan     ".truelength();

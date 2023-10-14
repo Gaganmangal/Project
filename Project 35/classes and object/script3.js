@@ -27,7 +27,7 @@ class produect {
 
 const p = new produect("iphone", 100000, 5);
 console.log(p);
-p.setter = 10;
-p.getter;
-p.display();
+// p.setter = 10;
+// p.getter;
+// p.display();
 produect.coustm();
