@@ -1,5 +1,5 @@
 function manipulateString(string, callback) {
-  const newstring = string.touppercase();
+  const newstring = string.toUpperCase();
   callback(newstring);
 }
 
