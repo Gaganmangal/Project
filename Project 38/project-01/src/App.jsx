@@ -1,7 +1,9 @@
+import Person from "./Person/Person";
 function App() {
   return (
     <>
-      <h1>Hello Gagan</h1>
+      <h1>hhdbv</h1>
+      <Person name="Gagan Mangal" age="20" />
     </>
   );
 }
