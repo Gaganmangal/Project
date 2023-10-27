@@ -1,7 +1,8 @@
+import Button from "./component/Button";
 function App() {
   return (
     <>
-      <h1>mnshgdh</h1>
+      <Button text="Click me!" onClick={() => alert("Button Click")} />
     </>
   );
 }
